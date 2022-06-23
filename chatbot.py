@@ -27,7 +27,7 @@ model = load_model('chatbot_model.model')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
- #To lammetize the word:
+ #To lammetize the word
     sentence_words =  [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
     
