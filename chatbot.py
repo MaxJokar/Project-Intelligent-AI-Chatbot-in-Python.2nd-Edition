@@ -44,7 +44,7 @@ def bag_of_words(sentence):
     return np.array(bag)
 
 
-def predict_class(sentence):
+def predict_class(sentence):  # sourcery skip: list-comprehension
     bow = bag_of_words(sentence)
     res = model.predict(np.array(([bow])))[0]
     ERROR_THRESHOLD = 0.25 
