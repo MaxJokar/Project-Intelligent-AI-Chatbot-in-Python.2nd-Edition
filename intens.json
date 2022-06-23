@@ -1,0 +1,14 @@
+{"intents":[ 
+    { "tag":"geeting",
+        "patterns":["hi","how are you ?","good day", "hey","hows it going?"],
+        "responses":["what's up","good day pal","Hi tehre, how can I help ?"]
+        
+    },
+    { "tag":"goodbye",
+        "patterns":["see you ","goodbye","so long"],
+        "responses":["see you later","Bye For Now","Chio"]
+        
+
+    }
+
+]}
